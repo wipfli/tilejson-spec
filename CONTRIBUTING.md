@@ -1,16 +1,18 @@
-# Open Standard
+# Contributing
 
-The TileJSON specification is an open standard maintained by [Mapbox](https://www.mapbox.com/about/open/).
+The MapLibre TileJSON specification is an open specification maintained by MapLibre. You are welcome to contribute to this specification.
 
 ### Questions and Contributing
 
-All specification development happens at https://github.com/mapbox/tilejson-spec. For general questions relating to the specification please feel free to create a new [issue](https://github.com/mapbox/tilejson-spec/issues).
+All specification development happens at https://github.com/maplibre/tilejson-spec. For general questions relating to the specification please feel free to create a new [issue](https://github.com/maplibre/tilejson-spec/issues).
 
 ### Proposing Changes
 
-- Editorial changes that clarify the specification are encouraged. Edits can be submitted as a pull request against the `master` branch of the latest version of the specification. Review and discussion of the proposed changes will take place on this pull request. Changes may warrant a bump in the `minor` version of the specification.
+Every substantial change of the specification (things that are not just typo fixes) require a design proposal. Please open an Issue with a design propsal first.
 
-- Technical changes to the specification are an important part of the evolution of the standard. Technical changes imply new requirements for tools that create and/or read the format. Therefore a technical change requires the `major` version to be incremented and will be carefully reviewed and considered by implementors of the specification. Technical changes are best discussed in individual [issues](https://github.com/mapbox/tilejson-spec/issues) prior to a change in the specification. Please be concise in any suggestions and read existing issues prior to posting.
+- Editorial changes that clarify the specification are encouraged. Edits can be submitted as a pull request against the `main` branch of the latest version of the specification. Review and discussion of the proposed changes will take place on this pull request. Changes may warrant a bump in the `minor` version of the specification.
+
+- Technical changes to the specification are an important part of the evolution of the standard. Technical changes imply new requirements for tools that create and/or read the format. Therefore a technical change requires the `major` version to be incremented and will be carefully reviewed and considered by implementors of the specification. Technical changes are best discussed in individual [issues](https://github.com/maplibre/tilejson-spec/issues) prior to a change in the specification. Please be concise in any suggestions and read existing issues prior to posting.
 
 ### Syntax Notes
 
@@ -28,7 +30,7 @@ Upon determination that a significant need for a version change is required a pu
 The pull request should provide a clear explanation of the intent for the new version of the specification. All associated issues should be linked in the pull request. Suggested changes to the branch of the development version will be accepted in the form of a pull request to that branch.
 Once all issues with the pull request have been addressed the pull request may be merged into the master branch.
 
-Update the `CHANGELOG.md` with the date of release of the official specification in a new commit to the `master` branch. Once this is done, create an official tag of the release on github.
+Update the `CHANGELOG.md` with the date of release of the official specification in a new commit to the `main` branch. Once this is done, create an official tag of the release on github.
 
 ```
     git tag -a v2.0.0 -m "v2.0.0"
