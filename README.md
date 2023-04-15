@@ -1,6 +1,6 @@
-# TileJSON
+# MapLibre TileJSON Specification
 
-TileJSON is an open standard for representing map metadata. Current version: [3.0.0](/3.0.0)
+The MapLibre TileJSON specification is an open specification for representing map metadata. Current version: [3.0.0](/3.0.0)
 
 ## License
 
